@@ -8,6 +8,9 @@
     'data': [
         'security/ir.model.access.csv',
         'views/sale_channel_views.xml',
+        'views/sale_order_views.xml',
+        'views/credit_group_views.xml',
+        'views/res_partner.xml',
     ],
     'installable': True,
     'application': True,

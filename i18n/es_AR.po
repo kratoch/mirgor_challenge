@@ -1,0 +1,187 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mirgor_challenge
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 00:52+0000\n"
+"PO-Revision-Date: 2024-09-26 00:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mirgor_challenge
+#. odoo-python
+#: code:addons/mirgor_challenge/models/sale_order.py:0
+#, python-format
+msgid "Cannot confirm sale order because the credit status is \"Credit Blocked\"."
+msgstr "No se puede confirmar la orden de venta porque el estado de crédito es \"Crédito Bloqueado\"."
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__code
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__code
+msgid "Code"
+msgstr "Código"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__create_uid
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__create_date
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__credit_available
+#: model:ir.model.fields.selection,name:mirgor_challenge.selection__sale_order__credit_status__available
+msgid "Credit Available"
+msgstr "Crédito Disponible"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields.selection,name:mirgor_challenge.selection__sale_order__credit_status__blocked
+msgid "Credit Blocked"
+msgstr "Crédito Bloqueado"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_res_partner__credit_control
+#: model:ir.model.fields,field_description:mirgor_challenge.field_res_users__credit_control
+msgid "Credit Control"
+msgstr "Control de Crédito"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_credit_group
+msgid "Credit Group"
+msgstr "Grupo de Crédito"
+
+#. module: mirgor_challenge
+#: model:ir.actions.act_window,name:mirgor_challenge.action_credit_group
+#: model:ir.model.fields,field_description:mirgor_challenge.field_res_partner__credit_group_ids
+#: model:ir.model.fields,field_description:mirgor_challenge.field_res_users__credit_group_ids
+#: model:ir.ui.menu,name:mirgor_challenge.menu_credit_group
+msgid "Credit Groups"
+msgstr "Grupos de Crédito"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_order__credit_status
+msgid "Credit Status"
+msgstr "Estado del Crédito"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__credit_used
+msgid "Credit Used"
+msgstr "Crédito Utilizado"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__location_id
+msgid "Delivery Warehouse"
+msgstr "Almacén de Entrega"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__display_name
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__global_credit
+msgid "Global Credit"
+msgstr "Crédito Global"
+
+#. module: mirgor_challenge
+#. odoo-python
+#: code:addons/mirgor_challenge/models/credit_group.py:0
+#, python-format
+msgid "Global credit cannot be negative."
+msgstr "El credito global no puede ser negativo"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__id
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__journal_id
+msgid "Invoice Journal"
+msgstr "Diario de Facturas"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__write_uid
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__write_uid
+msgid "Last Updated by"
+msgstr "Última Actualización por"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__write_date
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__write_date
+msgid "Last Updated on"
+msgstr "Última Actualización en"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__name
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_channel__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: mirgor_challenge
+#: model:ir.model.fields.selection,name:mirgor_challenge.selection__sale_order__credit_status__no_limit
+msgid "No Credit Limit"
+msgstr "Sin Límite de Crédito"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_sale_channel
+#: model:ir.model.fields,field_description:mirgor_challenge.field_account_bank_statement_line__sale_channel_id
+#: model:ir.model.fields,field_description:mirgor_challenge.field_account_move__sale_channel_id
+#: model:ir.model.fields,field_description:mirgor_challenge.field_account_payment__sale_channel_id
+#: model:ir.model.fields,field_description:mirgor_challenge.field_sale_order__sale_channel_id
+#: model:ir.model.fields,field_description:mirgor_challenge.field_stock_picking__sale_channel_id
+msgid "Sales Channel"
+msgstr "Canal de Venta"
+
+#. module: mirgor_challenge
+#: model:ir.actions.act_window,name:mirgor_challenge.action_sale_channel
+#: model:ir.model.fields,field_description:mirgor_challenge.field_credit_group__sale_channel_ids
+#: model:ir.ui.menu,name:mirgor_challenge.sale_channel_action_delivery_carrier_form
+msgid "Sales Channels"
+msgstr "Canales de Ventas"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_sale_order
+msgid "Sales Order"
+msgstr "Orden de venta"
+
+#. module: mirgor_challenge
+#: model:ir.model,name:mirgor_challenge.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir "
+
+#. module: mirgor_challenge
+#. odoo-python
+#: code:addons/mirgor_challenge/models/res_partner.py:0
+#, python-format
+msgid "You must select at least one credit group if credit control is enabled."
+msgstr "Debe seleccionar al menos un grupo de crédito si el control de crédito está habilitado."

@@ -6,5 +6,5 @@ class SaleChannel(models.Model):
 
     name = fields.Char(string='Name', required=True)
     code = fields.Char(string='Code', required=True, unique=True)
-    warehouse_id = fields.Many2one('stock.warehouse', string='Delivery Warehouse')
+    location_id = fields.Many2one('stock.location', string='Delivery Warehouse')
     journal_id = fields.Many2one('account.journal', string='Invoice Journal')
